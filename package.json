@@ -1,0 +1,19 @@
+{
+  "name": "lotoquine-react-npm",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "lite-server --baseDir=public",
+    "build": "babel src --out-dir public"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "lite-server": "^2.6.1"
+  }
+}

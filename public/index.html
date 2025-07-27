@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lotoquine React App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Lotoquine - Grilles Manuelles</h1>
+    <div style="margin-bottom: 12px;">
+      <button onclick="window.addGrille()">Ajouter une grille</button>
+      <input id="numberInput" placeholder="Entrer un chiffre" />
+      <button onclick="window.handleValider()">Valider</button>
+      <button onclick="window.handleRetour()">Retour</button>
+      <button onclick="window.handleReset()">Nettoyer</button>
+    </div>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="./App.js"></script>
+  </body>
+</html>
